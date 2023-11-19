@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politik - Antara News</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.sobatku.co.id/wp-content/uploads/2019/03/Logo-ANTARANews.png"
+    />
+    <style>
+      .card-text {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="news-header" class="mb-4"></header>
+    <div class="container mt-2">
+      <div class="row" id="news-container"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+      getData();
+    </script>
+  </body>
+</html>
